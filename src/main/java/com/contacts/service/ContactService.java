@@ -2,7 +2,7 @@ package com.contacts.service;
 
 import java.util.List;
 
-import com.contacts.application.domain.Contact;
+import com.contacts.domain.Contact;
 
 public interface ContactService {
 

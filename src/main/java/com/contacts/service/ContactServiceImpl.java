@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.contacts.application.domain.Contact;
 import com.contacts.application.repo.ContactRepository;
+import com.contacts.domain.Contact;
 
 @Service
 public class ContactServiceImpl implements ContactService {

@@ -7,7 +7,7 @@ import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
-import com.contacts.application.domain.Contact;
+import com.contacts.domain.Contact;
 
 @CrossOrigin
 @RepositoryRestResource(collectionResourceRel = "contacts", path = "contacts")

@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;
 
-import com.contacts.application.domain.Contact;
+import com.contacts.domain.Contact;
 import com.mongodb.client.result.UpdateResult;
 
 @Component
